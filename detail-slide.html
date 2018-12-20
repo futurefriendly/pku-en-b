@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="shortcut icon" href="./favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./pku57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./pku72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./pku114.png" />
+
+<!-- Bootstrap core CSS file -->
+<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+
+<link href="./bower_components/bootstrap-ie7/css/bootstrap-ie7.css" rel="stylesheet">
+
+<!-- Icomoon font icon library -->
+<!-- <link rel="stylesheet" href="./bower_components/icomoon/style.css"> -->
+
+<!-- theme CSS file -->
+<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.css">
+
+<!-- custom CSS file -->
+<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-custom.css">
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<link href="./bower_components/bootstrap/dist/css/ie.css" rel="stylesheet">
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link href="./bower_components/bootstrap-ie7/css/bootstrap-ie7.css" rel="stylesheet">
+<![endif]-->
+
+<!-- jQuery file (before bootstrap.min.js) -->
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- bttrlazyloading file -->
+<!-- <link rel="stylesheet" href="./bower_components/jquery/plugin/bttrlazyloading.min.css"> -->
+
+<!-- Bootstrap core JavaScript file -->
+<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- bttrlazyloading JavaScript file -->
+<!-- <script src="./bower_components/jquery/plugin/jquery.bttrlazyloading.min.js"></script> -->
+
+<!-- imgLiquid JavaScript file -->
+<script src="./bower_components/jquery/plugin/imgLiquid-min.js"></script>
+
+<!-- jquery.lazyload JavaScript file -->
+<!-- <script src="./bower_components/jquery/plugin/jquery.lazyload.js"></script> -->
+
+<script type="text/javascript">
+document.createElement('header');
+document.createElement('footer');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+</script>
+
+<title>Peking University</title>
+</head>
+
+<body>
+
+<div class="container-fluid e_container_navwrap">
+
+<!-- navigation inc/_nav.html -->
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <div class="add-nav tx_times">
+        <ul class="clearfix">
+        <li><a href="./">Home</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="http://www.pku.edu.cn">简体中文</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right e_nav_mainnav">
+        <li class="active"><a href="./detail.html">About PKU</a></li>
+        <li><a href="./list.html">News</a></li>
+        <li><a href="./list.html">Events</a></li>
+        <li><a href="./list.html">Schools & Departments</a></li>
+        <li><a href="./list.html">Admission</a></li>
+        <li><a href="./list.html">Academics & Research</a></li>
+        <li><a href="./list.html">Administration</a></li>
+        <li><a href="./list.html">Employment</a></li>
+        <li><a href="./list.html">Health Science Center</a></li>
+        <li><a href="./list.html">Library</a></li>
+        <li><a href="./list.html">Giving To PKU</a></li>
+        <li><a href="./list.html">Alumni</a></li>
+      </ul>
+
+      <!-- e_nav_info1 support mobile devices -->
+      <style>
+      .glyphicon-chevron-right{
+        -webkit-transition:all .1s ease-in-out;
+      }
+      .open .glyphicon-chevron-right{
+        -webkit-transform:rotate(90deg);
+      }
+      </style>
+      <ul class="nav navbar-nav navbar-right e_nav_info1">
+        <li class="divider"></li>
+        <li>
+          <a class="dropdown-toggle small" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-chevron-right"></span> Information for</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="./gateways.html">Student</a></li>
+            <li><a href="./gateways.html">Faculty/Staff</a></li>
+            <li><a href="./gateways.html">Alumni</a></li>
+            <li><a href="./gateways.html">Vistor</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- e_nav_info2 support tablet & desktop -->
+      <ul class="nav navbar-nav navbar-right e_nav_info2 tx_times">
+            <li><a href="./gateways.html">Student</a></li>
+            <li><a href="./gateways.html">Faculty/Staff</a></li>
+            <li><a href="./gateways.html">Alumni</a></li>
+            <li><a href="./gateways.html">Vistor</a></li>
+      </ul>
+      <form action="./list.html" class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control e_input_search" placeholder="">
+        </div><button type="submit" class="btn btn-default e_btn_search tx_times">Search</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- /navigation -->
+
+</div>
+
+<div class="container e_container_content">
+<div class="row">
+
+<div class="col-xs-16">
+
+<!-- logo inc/_logo.html -->
+<div class="m_logo clearfix">
+	<div class="c1">
+		<a href="./index.html" title="Peking University"><img class="logo" src="bower_components/bootstrap/assets/images/logo.png" alt="Peking University" /></a>
+	</div>
+	<div class="c2 tx_geor">
+		<a href="###">Sitemap</a><a href="###">About Us</a><a href="http://www.pku.edu.cn">简体中文</a>
+	</div>
+</div>
+<!-- /logo -->
+
+</div>
+
+<div class="col-xs-16">
+
+	<div class="row">
+		<div class="col-xs-16">
+
+			<!-- slide-big inc/_banner_slide.html -->
+			<div class="m_banner">
+	<img class="img-responsive" src="./bower_components/bootstrap/assets/images/banner2.jpg" alt="" />
+	<span class="cloud"></span>
+</div>
+			<!-- /slide-big -->
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-16 col-sm-11 col-sm-push-5">
+
+		<!-- main-slide inc/_main-slide.html -->
+		<div class="main borb0">
+
+	<!-- topinfo -->
+	<div class="row topinfo tx_l clearfix">
+		<div class="col-xs-16">
+			<div class="bread pt10 tx_r tx_-2 tx_geor">
+				<a href="./index.html">Home</a>
+				<span>&raquo;</span>
+				<a href="./list.html">News</a>
+				<span>&raquo;</span>
+				<span>Global</span>
+			</div>
+		</div>
+	</div>
+	<!-- /topinfo -->
+
+	<!-- msgSlide -->
+	<article class="msgSlide clearfix">
+		<div class="msg_tit clearfix">
+			<div class="col-xs-16">
+				<h1 class="tx_geor">Design and modeling for RF PLL circuits</h1>
+				<div class="sub tx_geor" style="display:none"><i>Written by: Cheng Zui and Li Ruiqi</i></div>
+			</div>
+		</div>
+		<section class="para tx_geor">
+			<div class="con clearfix">
+				<span class="bor"></span>
+				<div class="art col-xs-16">
+					<p>On April 8, a group of PKU students joined the 3rd International Youth Festival of Ancient Drama in the city of Mycenae, Greece and performed the classical ancient Greek drama <a href="http://en.wikipedia.org/wiki/Oedipus_the_King" target="_blank"><i>Oedipus the King</i></a> . They are the only group that represents the youths in China.</p>
+					<p>Mayor Anastasopoulos and Vice Mayor Davillas of Mycenae, famous archeologist and professor Themelis of the University of Crete, Counselor Ning Yi of Chinese Embassy in Greece and other distinguished guests watched the drama performance with over three hundred local youths.</p>
+					<p>The audience was much appealed to the one-hour drama performed by PKU students. Fascinated by their remarkable stage performance and mental outlook, the audience gave the actors a standing ovation at the end of the drama. Many said that though they could not catch every single line due to language barrier, they could totally understand the students’ performance and the emotional shifts of the characters. Some were even moved to tears.</p>
+					<p>After the show, Vice Mayor Davillas held a luncheon to express gratitude to the PKU delegation. He spoke highly of the performance, saying it was as the best one so far in this festival.</p>
+					<p><i>Oedipus the King</i> is the representative work of <a href="http://en.wikipedia.org/wiki/Sophocles" target="_blank">Sophocles</a>. The drama group of PKU students rearranged the classic tragedy with modern interpretation via incorporating diverse Chinese elements such as martial arts and Beijing Opera. This new rendition emphasized the inner conflict of the characters, combining macroscopic symbolism with microcosmic realism of the chorus in a flexible way to creatively manifest the heroic image of Oedipus.</p>
+					<p>Much of the work was under the guidance of Professor Luo Jinlin, a great master of ancient Greek drama and former Vice-Director of the Central Academy of Drama in China, together with other advisors.</p>
+					<p>The preparation for the drama lasted for about half a year since last November. The drama group consisted of members from PKU Drama Club and other student enthusiasts from different majors through open selection on campus. PKU has a profound tradition of dramatic arts. In addition to the popular students’ association PKU Drama Club, which was founded in 1982, the Drama Talent Competition held by the Student Union annually has also become an important part of the campus culture. It appeals to lots of teams of students to take part in every year and gains wide recognition both on campus and in the professional drama circle.</p>
+					<p>The 3rd International Youth Festival of Ancient Drama was held from March 31 to April 10 by the Mycenae government. It is a non-competitive festival for amateur student drama groups throughout the world to showcase their performances of ancient Greek and Roman dramas. This time the host government chose <a href="http://en.wikipedia.org/wiki/Ekklesiasterion" target="_blank">Ekklesiasterion</a> as the stage, which is the site of an ancient Greek theater. It dates back to three century B.C. and was brought to light about 30 years ago.</p>
+					<p>Greece and China are both countries with ancient civilization. It is not only a great chance to experience the spiritual charm of the birthplace of drama, but also a deep culture communication between the East and the West in terms of drama arts.</p>
+					<p>The PKU delegation also visited the European Cultural Centre in Delphi and communicated with local teachers and students at Confusion Institute of Athens.</p>
+					<p>They will give a report-back performance at PKU recently.</p>
+				</div>
+			</div>
+		</section>
+	</article>
+	<!-- /msgSlide -->
+
+</div>
+		<!-- /main-slide -->
+			
+		</div>
+		<div class="col-side hidden-xs col-sm-5 col-sm-pull-11">
+
+		<!-- side-slide inc/_side-slide.html -->
+		<aside class="side">
+	<div class="side_bd">
+
+	<!-- sidenav -->
+	<div class="sidenav">
+		<ul class="lst1">
+		<li class="item">
+			<a href="./list.html" class="lk">About PKU</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">News</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Events</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Schools & Departments</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Admission</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Academics & Research</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Administration</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Employment</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Health Science Center</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Library</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Giving To PKU</a>
+		</li>
+		<li class="item">
+			<a href="./list.html" class="lk">Alumni</a>
+		</li>
+		</ul>
+	</div>
+	<!-- /sidenav -->
+
+	</div>
+	<div class="side_ft">
+
+	<!-- sidebtm -->
+	<div class="sidebtm">
+		<div class="sidebtm_bd">
+
+		<!-- information _information.html -->
+		<div class="m_information">
+	<ul class="clearfix">
+	<li class="item">
+		<div class="ico_information ico_students"><i></i></div>
+		<div class="desc">
+			<div class="c1">
+				<div class="ico_information_s ico_students_s"></div>
+				<div class="project">Overseas<br />Students</div>
+			</div>
+			<div class="c2"><a href="###">Enter <span class="glyphicon glyphicon-play"></span></a></div>
+		</div>
+	</li>
+	<li class="item">
+		<div class="ico_information ico_newsletter"><i></i></div>
+		<div class="desc">
+			<div class="c1">
+				<div class="ico_information_s ico_newsletter_s"></div>
+				<div class="project">PKU<br />Newsletter</div>
+			</div>
+			<div class="c2"><a href="###">Enter <span class="glyphicon glyphicon-play"></span></a></div>
+		</div>
+	</li>
+	<li class="item last">
+		<div class="ico_information ico_mooc"><i></i></div>
+		<div class="desc">
+			<div class="c1">
+				<div class="ico_information_s ico_mooc_s"></div>
+				<div class="project">Peking<br />University<br />Class</div>
+			</div>
+			<div class="c2"><a href="###">Edx <span class="glyphicon glyphicon-play"></span></a>&nbsp;&nbsp;<a href="###">Coursera <span class="glyphicon glyphicon-play"></span></a></div>
+		</div>
+	</li>
+	</ul>
+</div>
+		<!-- /information -->
+
+		</div>	
+	</div>
+	<!-- /sidebtm -->
+		
+	</div>
+</aside>
+		<!-- /side-slide -->
+			
+		</div>
+	</div>
+	
+</div>
+
+</div>
+</div>
+
+<div class="container-fluid e_container_recommend">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-16">
+
+			<!-- recommend inc/_recommend.html -->
+			<div class="m_recommend">
+	<div class="m_recommend_bd clearfix">
+		<div class="item e_item_1">
+			<div class="item_bd">
+				<div class="pic"><img src="./bower_components/bootstrap/assets/images/p1.jpg" alt="" /></div>
+				<div class="dock-msg">
+					<div class="txt">
+						<div class="tit">ACADEMIC</div>
+						<div class="msg hidden-xs">New design surpasses the coherent interaction limit</div>
+					</div>
+				</div>
+				<a href="./list.html" class="pcover"></a>
+			</div>
+		</div>
+		<div class="item e_item_2">
+			<div class="item_bd">
+				<div class="pic"><img src="./bower_components/bootstrap/assets/images/p2.jpg" alt="" /></div>
+				<div class="dock-msg">
+					<div class="txt">
+						<div class="tit">FOCUS</div>
+						<div class="msg hidden-xs">Honorary Trustee Leo KoGuan attends the 3rd Ni Shan World Civilization Forum</div>
+					</div>
+				</div>
+				<a href="./list.html" class="pcover"></a>
+			</div>
+		</div>
+		<div class="item e_item_3">
+			<div class="item_bd">
+				<div class="pic"><img src="./bower_components/bootstrap/assets/images/p3.jpg" alt="" /></div>
+				<div class="dock-msg">
+					<div class="txt">
+						<div class="tit">STUDENT</div>
+						<div class="msg hidden-xs">Chen Xuemei: A female scientist who blossoms out of interest</div>
+					</div>
+				</div>
+				<a href="./list.html" class="pcover"></a>
+			</div>
+		</div>
+		<div class="item e_item_4">
+			<div class="item_bd">
+				<div class="pic"><img src="./bower_components/bootstrap/assets/images/p4.jpg" alt="" /></div>
+				<div class="dock-msg">
+					<div class="txt">
+						<div class="tit">CULTURE</div>
+						<div class="msg hidden-xs">Sun Qixiang's notes to PKU youths</div>
+					</div>
+				</div>
+				<a href="./list.html" class="pcover"></a>
+			</div>
+		</div>
+		<div class="item e_item_5">
+			<div class="item_bd">
+				<div class="pic"><img src="./bower_components/bootstrap/assets/images/p5.jpg" alt="" /></div>
+				<div class="dock-msg">
+					<div class="txt">
+						<div class="tit">MEDIA</div>
+						<div class="msg hidden-xs">Economist Justin Yifu Lin receives honorary degree from UBC</div>
+					</div>
+				</div>
+				<a href="./list.html" class="pcover"></a>
+			</div>
+		</div>
+	</div>
+</div>
+			<!-- /recommend -->
+				
+			</div>
+		</div>
+		
+	</div>
+
+	<span class="bor_rainbow"><i></i><i></i><i></i><i></i><i></i></span>
+	
+</div>
+
+<div class="container-fluid e_container-fluid_btm">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-16 col-sm-8">
+
+			<!-- tabs-btm inc/_tabs-btm.html -->
+			<div class="m_tabs e_tabs_btm">
+	<ul class="clearfix">
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">About PKU</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Administration</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">News</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Employment</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Events</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Health Science Center</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Schools & Departments</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Library</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Admission</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Giving To PKU</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Acdemics & Research</span></a>
+	</li>
+	<li class="item">
+		<a href="./list.html" class="lk"><span class="txt">Alumni</span></a>
+	</li>
+	</ul>
+</div>
+			<!-- /tabs-btm -->
+
+			</div>
+			<div class="col-xs-16 col-sm-8 col-md-7 col-md-offset-1">
+
+			<!-- foot-sub inc/_foot-sub.html -->
+			<div class="col-xs-16 col-sm-10">
+	<div class="m_foot-logo">
+		<img class="logo img-responsive mauto" src="bower_components/bootstrap/assets/images/logo.png" alt="Peking University" />
+	</div>
+	<div class="social-plat e_social-plat_sub">
+		<ul class="clearfix">
+		<li class="item">
+			<a href="###" class="lk"><i class="ico_plat ico_snwb"></i></a>
+		</li>
+		<li class="item">
+			<a href="###" class="lk"><i class="ico_plat ico_txwb"></i></a>
+		</li>
+		<li class="item">
+			<a href="###" class="lk"><i class="ico_plat ico_wechat"></i></a>
+		</li>
+		</ul>
+	</div>
+</div>
+
+<div class="col-xs-16 col-sm-6">
+	<div class="m_foot-copyright tx_-1 tx_lh15 c_tx0">
+		&copy; 2014 Peking University<br />Peking University, No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871<br />webmaster@pku.edu.cn
+	</div>
+</div>
+			<!-- /foot-sub -->
+				
+			</div>
+		</div>
+
+	</div>		
+</div>
+
+<!-- footer inc/_footer.html -->
+<!-- custom JavaScript file -->
+<script src="./bower_components/bootstrap/dist/js/bootstrap-custom.js"></script>
+
+</body>
+</html>
+<!-- /footer -->
